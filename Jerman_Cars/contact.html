@@ -17,6 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 
 <body>
@@ -135,40 +136,39 @@
                                     <h2>Get In Touch</h2>
                                     <p>Etiam pharetra egestas interdum blandit viverra morbi consequat mi non bibendum egestas quam egestas nulla.</p>
                                 </div>
-                                <form class="row">
+                                <form id="contact-form">
                                     <div class="col-lg-6">
                                         <div class="form_boxes">
                                             <label>First Name</label>
-                                            <input type="text" name="name" placeholder="Ali">
+                                            <input type="text" name="first_name" placeholder="Ali" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form_boxes">
                                             <label>Last Name</label>
-                                            <input type="text" name="last-name" placeholder="Tufan">
+                                            <input type="text" name="last_name" placeholder="Tufan" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form_boxes">
                                             <label>Email</label>
-                                            <input type="email" name="email" placeholder="Creativelayers088@Gmail.Com">
+                                            <input type="email" name="email" placeholder="Creativelayers088@Gmail.Com" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form_boxes">
                                             <label>Phone</label>
-                                            <input type="number" name="number" placeholder="+90 47458 27 3287 12">
+                                            <input type="tel" name="phone" placeholder="+90 47458 27 3287 12" required>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form_boxes v2">
                                             <label>Comment</label>
-                                            <textarea name="message" placeholder="Lorem Ipsum Dolar Sit Amet" required="" style="color:#000; width: 100%;"></textarea>
+                                            <textarea name="message" placeholder="Lorem Ipsum Dolar Sit Amet" required style="color:#000; width: 100%;"></textarea>
                                         </div>
                                     </div>
                                     <div class="form-submit">
-                                        <button type="submit" class="theme-btn">Send Message<img src="images/arrow.svg" alt="">
-                                        </button>
+                                        <button type="submit" class="theme-btn">Send Message<img src="images/arrow.svg" alt=""></button>
                                     </div>
                                 </form>
                             </div>
@@ -453,5 +453,7 @@
 <script src="js/knob.js"></script>
 <script src="js/mmenu.js"></script>
 <script src="js/main.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/contact-form.js"></script>
 </body>
 </html>
