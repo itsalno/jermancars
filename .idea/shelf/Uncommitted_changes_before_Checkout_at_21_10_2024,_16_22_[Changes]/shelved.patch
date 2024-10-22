@@ -1,0 +1,42 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6126ac29-0568-45d4-bb99-611394cabd20\" name=\"Changes\" comment=\"Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)\">\n      <change beforePath=\"$PROJECT_DIR$/Jerman_Cars/contact.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Jerman_Cars/contact.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"git-widget-placeholder\": \"Task6-Email-Links\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\n  }\n}]]></component>\n  <component name=\"TaskManager\">\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5f6243ad147ab825bc0035bf5c0aa6930488573c)
++++ b/.idea/workspace.xml	(date 1729520556874)
+@@ -4,9 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6126ac29-0568-45d4-bb99-611394cabd20" name="Changes" comment="Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)">
+-      <change beforePath="$PROJECT_DIR$/Jerman_Cars/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Jerman_Cars/contact.html" afterDir="false" />
+-    </list>
++    <list default="true" id="6126ac29-0568-45d4-bb99-611394cabd20" name="Changes" comment="Emails are now clickable and redirect the user to their email app" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -25,10 +23,20 @@
+   }
+ }]]></component>
+   <component name="TaskManager">
++    <task id="LOCAL-00001" summary="Emails are now clickable and redirect the user to their email app">
++      <option name="closed" value="true" />
++      <created>1729520550635</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1729520550635</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Hyperlinks fixed,added links to instagram and facebook(couldnt find their linkedin and twitter)" />
++    <MESSAGE value="Emails are now clickable and redirect the user to their email app" />
++    <option name="LAST_COMMIT_MESSAGE" value="Emails are now clickable and redirect the user to their email app" />
+   </component>
+ </project>
+\ No newline at end of file

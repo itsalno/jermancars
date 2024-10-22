@@ -1,0 +1,170 @@
+.suggest-car-section .inner-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.suggest-car-section {
+    padding-bottom: 50px; /* Maintain spacing at the bottom */
+    text-align: center;    /* Center-align text and button */
+}
+
+
+
+
+.suggest-car-section:hover .inner-box {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.suggest-car-section .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.suggest-car-section .text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.suggest-car-section .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #405FF2;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.suggest-car-section .read-more:hover {
+    background-color: #FF5CF4;
+}
+
+.suggest-car-section .read-more svg {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+#form-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#form-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#form-container form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+#form-container form label {
+    font-size: 14px;
+    color: #333;
+}
+
+#form-container form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%; /* Change to a percentage value if needed */
+    box-sizing: border-box;
+}
+
+#form-container form button {
+    padding: 10px 20px;
+    background-color: #405FF2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-container form button:hover {
+    background-color: #FF5CF4;
+}
+
+.suggest-car-section .hover-img {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    z-index: -1;
+}
+
+.form-section {
+    padding: 30px;
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 50px;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form_boxes {
+    margin-bottom: 10px;
+}
+
+.form_boxes label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form_boxes input,
+.form_boxes textarea {
+    width: 100%; /* Adjust the width to reduce gaps */
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+    box-shadow: none;
+}
+
+.form_boxes textarea {
+    min-height: 120px;
+}
+
+.form-submit {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.theme-btn {
+    padding: 12px 25px;
+    background-color: #405FF2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.theme-btn:hover {
+    background-color: #324bb8;
+}
+
+.theme-btn img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
